@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --surface: #f8f9ff;
+  --surface-dim: #cbdbf5;
+  --surface-bright: #f8f9ff;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #eff4ff;
+  --surface-container: #e5eeff;
+  --surface-container-high: #dce9ff;
+  --surface-container-highest: #d3e4fe;
+  --on-surface: #0b1c30;
+  --on-surface-variant: #3e4947;
+  --outline: #6e7977;
+  --outline-variant: #bdc9c6;
+  --primary: #005c55;
+  --primary-container: #0f766e;
+  --on-primary: #ffffff;
+  --on-primary-container: #a3faef;
+  --secondary: #515f74;
+  --secondary-container: #d5e3fd;
+  --on-secondary-container: #57657b;
+  --error: #ba1a1a;
+  --error-container: #ffdad6;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  font-family: "Public Sans", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
